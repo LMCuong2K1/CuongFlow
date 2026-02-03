@@ -1,0 +1,33 @@
+# --- Dependencies (Thư viện tải về - Rất nặng, KHÔNG ĐƯỢC UP) ---
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# --- Environment Variables (Bảo mật - Chứa mật khẩu, API Key) ---
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# --- Build Output (File rác sinh ra khi chạy code) ---
+dist/
+build/
+coverage/
+
+# --- IDE & System (File cấu hình của máy cá nhân) ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Cụ thể cho Flutter (Mobile sau này) ---
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
